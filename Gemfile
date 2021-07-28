@@ -13,6 +13,7 @@ group :development, :test do
  
  group :production do
    gem 'pg'
+   gem 'redis', '~> 4.0'
  end
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
@@ -26,7 +27,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'semantic-ui-sass'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
+
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'hirb'
